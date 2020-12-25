@@ -1,0 +1,31 @@
+.toast {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  .mask {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    opacity: 0.5;
+  }
+  .content {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ico {
+      margin-right: 16px;
+    }
+  }
+}

@@ -4,5 +4,5 @@ nav:
   path: /components
 ---
 
-## Ripple
+## Toast
 <code src="./demo.tsx" />
